@@ -6,10 +6,11 @@
   "scripts": {
     "start:dev": "concurrently \"npm --prefix server run server\" \"npm --prefix client run start\"",
     "start": "node server/server.js",
-    "server": "cd server && npm install && nodemon server.js",
+    "server": "cd server && npm install",
     "client": "cd client && npm install && npm run build",
     "install": "npm run server && npm run client",
-    "build": "cd client && npm run build"
+    "build": "cd client && npm run build",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -26,3 +27,4 @@
     "webpack-cli": "^5.1.4"
   }
 }
+
