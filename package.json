@@ -1,0 +1,28 @@
+{
+  "name": "text-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start:dev": "concurrently \"npm --prefix server run server\" \"npm --prefix client run start\"",
+    "start": "node server/server.js",
+    "server": "cd server && npm install && nodemon server.js",
+    "client": "cd client && npm install && npm run build",
+    "install": "npm run server && npm run client",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.3",
+    "nodemon": "^2.0.4",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
