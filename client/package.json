@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
       "server": "nodemon server.js --ignore client",
-      "build": "react-scripts build"
+      "build": "react-scripts build && mv dist public"
   },
   "keywords": [],
   "author": "",
