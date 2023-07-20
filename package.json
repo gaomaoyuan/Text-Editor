@@ -24,7 +24,8 @@
     "html-webpack-plugin": "^5.5.3",
     "nodemon": "^2.0.4",
     "webpack": "^5.88.2",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "babel-loader": "^8.3.0"
   }
 }
 
