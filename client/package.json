@@ -1,5 +1,5 @@
 {
-  "name": "JATE-client",
+  "name": "text-editor",
   "scripts": {
     "dev": "webpack-dev-server",
     "build": "webpack --mode production",
@@ -20,12 +20,12 @@
     "style-loader": "^3.3.3",
     "webpack": "^5.51.1",
     "webpack-cli": "^4.8.0",
-    "webpack-dev-server": "^4.0.0",
-    "workbox-webpack-plugin": "^6.2.4"
+    "webpack-dev-server": "^4.0.0"
   },
+
   "dependencies": {
     "code-mirror-themes": "^1.0.0",
     "idb": "^6.1.2",
-    "webpack-pwa-manifest": "^4.3.0"
+    "workbox-webpack-plugin": "^6.2.4"
   }
 }
