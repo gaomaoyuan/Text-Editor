@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/magickw/TextEditor#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "html-webpack-plugin": "^5.5.3"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
