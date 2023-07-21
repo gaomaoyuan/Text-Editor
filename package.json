@@ -30,6 +30,7 @@
     "workbox-webpack-plugin": "^7.0.0"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
     "concurrently": "^5.2.0",
     "nodemon": "^2.0.4",
     "webpack": "^5.69.1",
