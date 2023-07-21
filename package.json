@@ -24,7 +24,8 @@
   "homepage": "https://github.com/magickw/TextEditor#readme",
   "dependencies": {
     "express": "^4.17.3",
-    "html-webpack-plugin": "^5.5.3"
+    "html-webpack-plugin": "^5.5.3",
+    "webpack-pwa-manifest": "^4.3.0"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
