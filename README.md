@@ -43,7 +43,7 @@ Standard Contribution
 
 ## Tests
 
-[Deployed Application URL](
+[Deployed Application URL](https://text-editor-maoyuan-d5e7918dec36.herokuapp.com/)
 
 ## Contact Info
 
