@@ -49,6 +49,3 @@ Standard Contribution
 
 For any questions, please contact me at gaomaoyu1111@gmail.com or visit my GitHub profile at [Gaomaoyuan](https://github.com/Gaomaoyuan).
 
-=======
-# Text Editor Starter Code
->>>>>>> 395e9b7d (make it better)
